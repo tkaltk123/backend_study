@@ -1,6 +1,6 @@
 # EC2에 젠킨스를 설치하자.
 ## [전체 젠킨스 문서](index.md)
-> 사전에 EC2 인스턴스를 생성해야 한다. [참조](//aws/aws%20ec2.md)
+> 사전에 EC2 인스턴스를 생성해야 한다. [참조](../aws/aws%20ec2.md)
 ## 1. 젠킨스 설치
 ### 1.1. jdk 설치
 > 다음 명령을 터미널에서 실행한다.  
@@ -20,7 +20,7 @@ sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt-get update
 sudo apt install openjdk-11-jdk
 ```
-> 설치 확인
+> 설치 확인  
 >![](사진/401.png)  
 
 ## 1.2. 젠킨스 설치
